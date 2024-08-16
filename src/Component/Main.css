@@ -1,0 +1,17 @@
+.widgetctn{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    overflow-y: auto 
+}
+
+
+
+
+
+
+
+@media (max-width:900px){
+    .widgetctn{
+        grid-template-columns: 1fr;
+    }
+ }

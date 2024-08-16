@@ -1,0 +1,23 @@
+#transparent {
+    width: 0;
+    position: fixed;
+    background-color: rgb(12, 12, 12, 0.7);
+}
+
+#sidebar {
+    width: 0;
+    height: 100vh;
+    background-color: white;
+    margin-left: 60%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media (max-width:900px){
+   #sidebar{
+    margin-left: 0;
+   }
+}
