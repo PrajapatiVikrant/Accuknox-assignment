@@ -49,7 +49,7 @@ function Navbar() {
             }
 
         } else {
-            console.log('empty')
+           
             dispatch(displayWidget(alldata))
         }
 
@@ -116,10 +116,10 @@ function Navbar() {
                 </section>
                 <section className="section-2" >
                     <div className="search" style={{ display: "flex", alignItems: "center", border: "1px solid rgb(123, 123, 238)", borderRadius: "5px", padding: "5px 14px", width: "60%", backgroundColor: "white" }}>
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i className="fa-solid fa-magnifying-glass"></i>
                         <input style={{ fontSize: "16px", paddingLeft: "5px", border: "none", outline: "none", width: "100%" }} type="text" placeholder="Search any widget by name here..." value={search} onChange={(e) => SearchWidget(e.target.value)} className="searchInput" />
                     </div>
-                    <button className="addwidget" onClick={openSmall}>Add Widget <i class="fa-solid fa-plus" style={{ paddingLeft: "10px" }}></i></button>
+                    <button className="addwidget" onClick={openSmall}>Add Widget <i className="fa-solid fa-plus" style={{ paddingLeft: "10px" }}></i></button>
                 </section>
             </nav>
         </>

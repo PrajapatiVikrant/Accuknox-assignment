@@ -51,7 +51,7 @@ function AddWidgetCard({category}) {
                 </center>
             </div>
             ):(
-            <button onClick={() => setaddbutton(true)} className="addwidget" style={{ fontSize: "16px", padding: "8px 14px", cursor: "pointer", backgroundColor: "white", border: "1px solid rgb(123, 123, 238)", borderRadius: "5px", height: "fit-content" }}><i class="fa-solid fa-plus" style={{ paddingRight: "10px" }}></i> Add Widget </button>
+            <button onClick={() => setaddbutton(true)} className="addwidget" style={{ fontSize: "16px", padding: "8px 14px", cursor: "pointer", backgroundColor: "white", border: "1px solid rgb(123, 123, 238)", borderRadius: "5px", height: "fit-content" }}><i className="fa-solid fa-plus" style={{ paddingRight: "10px" }}></i> Add Widget </button>
         )}
             
           

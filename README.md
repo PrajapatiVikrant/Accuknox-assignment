@@ -3,8 +3,9 @@ I have created this project using html,css,javascript,React.js
 
 Step to run this code 
 
-1.go to terminal  and run following command
-  git clone https://github.com/PrajapatiVikrant/Accuknox-assignment.git
-2.go to github folder  and run following command
-    npm i
-    npm run dev
+1. go to terminal  and run following command
+2. git clone https://github.com/PrajapatiVikrant/Accuknox-assignment.git
+3. go to github folder  and run following command
+4. npm i
+5. npm run dev
+6. Live link https://accuknox-assignment-one.vercel.app/
